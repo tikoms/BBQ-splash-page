@@ -89,6 +89,13 @@ h2+p {
     background: yellow;
 }
 
+.landing-section>*,
+.content>* {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* MEDIA QUERIES
    ============= */
