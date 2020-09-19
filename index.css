@@ -61,6 +61,10 @@ h2+p {
 }
 
 
+/* LAYOUT
+   ============ */
+
+
 /* landing section 
 -------------------*/
 
@@ -101,7 +105,7 @@ h2+p {
 -------------------*/
 
 .name-email-collector {
-    border: 3px solid #F18119;
+    /* border: 3px solid #F18119; */
     width: 80%;
     max-width: 300px;
 }
@@ -109,6 +113,15 @@ h2+p {
 input,
 .btn {
     width: 100%;
+    border-radius: 5px;
+}
+
+input {
+    font-family: inherit;
+    text-align: inherit;
+    margin-bottom: 0.75em;
+    padding: .25em;
+    border: 1px solid #404040;
 }
 
 
