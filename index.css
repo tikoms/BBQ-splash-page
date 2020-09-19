@@ -97,6 +97,21 @@ h2+p {
 }
 
 
+/* form section 
+-------------------*/
+
+.name-email-collector {
+    border: 3px solid #F18119;
+    width: 80%;
+    max-width: 300px;
+}
+
+input,
+.btn {
+    width: 100%;
+}
+
+
 /* MEDIA QUERIES
    ============= */
 
