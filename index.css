@@ -138,6 +138,11 @@ input {
 .btn-content {
     background-image: linear-gradient(to left, #ff713b, #ffa51d);
     color: white;
+    transition: color 1s;
+}
+
+.btn-content:hover {
+    color: black;
 }
 
 
