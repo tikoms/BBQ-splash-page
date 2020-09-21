@@ -138,11 +138,12 @@ input {
 .btn-content {
     background-image: linear-gradient(to left, #ff713b, #ffa51d);
     color: white;
-    transition: color 1s;
+    transform: scale(1);
+    transition: transform 250ms;
 }
 
 .btn-content:hover {
-    color: black;
+    transform: scale(1.1);
 }
 
 
